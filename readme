@@ -1,3 +1,18 @@
+# Intro
+
+# system
+- mariadb
+
+# dev
+
+```bash
+$ npm install @apollo/server graphql mariadb reflect-metadata sequelize sequelize-typescript
+
+$ npm install @types/node @types/validator typescript
+```
+
+# tsconfig
+```json
 {
   "compilerOptions": {
     "target": "es2020",
@@ -13,3 +28,4 @@
     "skipLibCheck": true
   }
 }
+```
